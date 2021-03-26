@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.login{
+  width: 50vw;
+  height: 50vh;
+  background-color: black;  
+  margin:  20vh auto;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login input{
+  width: 50%;
+  height: 10%;
+  outline: rebeccapurple;
+  margin: 10px;
+}
+button{
+  width: 20%;
+  height: 20%;
+  background-color: royalblue;
+  margin-top: 2px;
+}
+
+.container{
+  width: 80vw;
+  height: 80vh;
+  margin:60px auto;
+  padding-top: 50px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.list{
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  margin: 0 auto;  
+
+}
+#form{
+  margin: 0 auto;
+  margin-top: 150px;  
+
+}
+
+#input{
+  height: 30px;
+  width: 50vw;
+}
+
+#add{
+  height: 35px;
+}
+
+#i{
+  width: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#listItem{
+background-color:black;
+color: white;
+font-size: 30px;
+margin-bottom: 20px;
+}
